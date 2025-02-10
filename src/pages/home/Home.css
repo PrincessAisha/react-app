@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-image: url('../../assets/images/pexels-souvenirpixels-1519088.jpg');
+  color: #333;
+  line-height: 1.6;
+}
+
+.home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+  
+.title {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.title marquee {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.home p {
+  max-width: 800px;
+  font-size: 1.2rem;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}

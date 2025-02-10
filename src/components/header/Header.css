@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgba(110, 17, 74, 0.952);
+  position: sticky;
+  box-shadow: 0, 2px 5px rgb(57, 57, 57);
+  z-index: 100px;
+}
+
+.header h1 {
+  color: palevioletred;
+  margin: 0;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header nav a {
+  text-decoration: none;
+  color: palevioletred;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.header nav a:hover {
+  color: #007bff;
+}
+
+.header nav svg {
+  font-size: 1.5rem;
+  color: #333333;
+  transition: color 0.3s ease;
+}
+
+.header nav svg:hover {
+  color: #007bff;
+}
