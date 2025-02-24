@@ -15,6 +15,8 @@ export default function Header() {
         <Link to="/about">About</Link>
         <Link to="/service">Service</Link>
         <Link to="/blog">Blog</Link>
+        <Link to="/SignIn">Sign In</Link>
+        <Link to="/contact">Contact</Link>
       </nav>
     </div>
   );

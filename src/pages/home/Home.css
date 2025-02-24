@@ -6,7 +6,7 @@
 
 body {
   font-family:Georgia, 'Times New Roman', Times, serif;
-  background-image: url('../../assets/images/pexels-souvenirpixels-1519088.jpg');
+  background-color: rgb(246, 232, 241);
   color: #333;
   line-height: 1.6;
 }
@@ -29,8 +29,8 @@ body {
 }
 
 .title marquee {
-  color: #fff;
-  background: rgba(0, 0, 0, 0.5);
+  color: black;
+  background: rgba(0, 0, 0, 0.05);
   padding: 0.5rem 1rem;
   border-radius: 5px;
 }
@@ -41,6 +41,6 @@ body {
   background: rgba(255, 255, 255, 0.8);
   padding: 1rem 1.5rem;
   border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   margin-top: 1rem;
 }
